@@ -1,0 +1,568 @@
+/*! Normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+    
+ html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline dotted;
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input {
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+  display: none;
+}
+
+
+/* Universal box-sizing rule */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /* Sets font size to 62.5% of the normal size for better rem scaling */
+}
+
+/* Custom CSS */
+:root {
+  --color-primary: #d73953;    /* Primary color */
+  --color-black: #090909;      /* Black color */
+  --color-white: #ffffff;      /* White color */
+  --color-light-grey: #f3f3f3; /* Light grey color */
+  --color-dark-grey: #353535;  /* Dark grey color */
+  --text-color: var(--color-black); /* Text color, set to black */
+
+  /* Custom font families */
+  --font-family-base: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Updated base font */
+  --font-family-title: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Updated title font */
+
+  /* Custom font sizes */
+  --font-size-small: 1.2rem;
+  --font-size-medium: 1.6rem;
+  --font-size-large: 1.8rem;
+  --font-size-x-large: 2.3rem;
+  --font-size-xx-large: 4.8rem;
+
+  /* Custom font weights */
+  --font-weight-regular: 400; /* Regular font weight */
+  --font-weight-bold: 700;    /* Bold font weight */
+
+  /* Custom line heights */
+  --line-height-small: 1.2; /* Small line height */
+  --line-height-base: 1.5;  /* Base line height */
+  --line-height-big: 1.8;    /* Big line height */
+
+  /* Custom alignment */
+  --section-header-align: center; /* Center alignment for section headers */
+
+  /* Custom transform for section tagline */
+  --section-tagline-transform: uppercase; /* Transform for section tagline */
+
+  /* New custom properties for section title */
+  --section-title-margin: 0; /* Margin for section title */
+  --section-title-color: var(--color-black); /* Text color for section title */
+
+  /* New custom properties for padding */
+  --section-padding: 5rem 0; /* Padding for section */
+  --section-header-padding: 0 0 3rem; /* Padding for section header */
+  --section-body-padding: 0 0 3rem; /* Padding for section body */
+  --section-footer-padding: 3rem 0 0; /* Padding for section footer */
+  --section-footer-align: center; /* Alignment for section footer */
+  --footer-padding: 5rem 0 1rem; /* Padding for footer */
+
+  /* New custom properties for navbar */
+  --nav-item-font-family: var(--font-family-title); /* Font-family for nav items */
+  --nav-item-font-weight: var(--font-weight-bold); /* Font-weight for nav items */
+  --nav-item-font-size: var(--font-size-medium); /* Font-size for nav items */
+  --nav-item-letter-spacing: 4%; /* Letter spacing for nav items */
+  --nav-item-display: inline-block; /* Display for nav items */
+  --nav-item-margin: 0 0 3rem 0; /* Margin for nav items (bottom 3rem, others 0) */
+  --nav-item-link-hover: var(--color-primary); /* Hover color for nav links */
+
+  /* New custom properties for section tagline */
+  --section-tagline-margin: 0; /* Margin for section tagline */
+}
+
+body {
+  color: var(--text-color); /* Foreground color set to text-color (black) */
+  font-family: var(--font-family-base); /* Set body font-family to base */
+  font-size: var(--font-size-medium); /* Set font size to medium (1.6rem) */
+  font-weight: var(--font-weight-regular); /* Set font weight to regular (400) */
+  line-height: var(--line-height-base); /* Set line height to base (1.5) */
+  min-height: var(--line-height-base); /* Set minimum height of line boxes */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-title); /* Font-family for section headings */
+  font-weight: var(--font-weight-bold); /* Set font weight to bold (700) */
+}
+
+a {
+  color: var(--text-color); /* Foreground color set to text-color (black) */
+  text-decoration: none; /* Remove text decoration (underline) */
+}
+
+a:visited {
+  font-style: italic; /* Italicize visited links */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline links on hover */
+}
+
+a:active {
+  background-color: var(--color-light-grey); /* Set background color for active link */
+}
+
+/* Navbar Menu */
+.navbar-menu {
+  float: right; /* Float navbar menu to the right */
+}
+
+/* Nav */
+nav {
+  margin: 0; /* Set margin on all sides to 0 */
+  padding: 0; /* Set padding on all sides to 0 */
+  list-style: none; /* Remove list styling */
+  text-align: center; /* Center align text */
+}
+
+/* Nav Item */
+nav .nav-item {
+  font-family: var(--nav-item-font-family); /* Set font-family for nav items */
+  font-weight: var(--nav-item-font-weight); /* Set font-weight for nav items */
+  font-size: var(--nav-item-font-size); /* Set font-size for nav items */
+  letter-spacing: var(--nav-item-letter-spacing); /* Set letter-spacing for nav items */
+  display: var(--nav-item-display); /* Set display for nav items */
+  margin: var(--nav-item-margin); /* Set margin for nav items (bottom 3rem, others 0) */
+}
+
+/* Nav Link */
+nav .nav-link {
+  display: block; /* Set display to block */
+  padding: calc(0.5 * var(--font-size-medium)) var(--font-size-medium); /* Set padding (top/bottom: half of root, left/right: equal to root) */
+}
+
+/* Nav Link Hover */
+nav .nav-link:hover {
+  color: var(--nav-item-link-hover); /* Set foreground color to nav-item-link-hover on hover */
+}
+
+/* Nav Link Active */
+nav .nav-link:active {
+  background-color: var(--color-light-grey); /* Set background color for active nav-link */
+}
+
+/* Section & Other Custom Classes */
+.section {
+  padding: var(--section-padding); /* Set padding on all sides to section-padding */
+}
+
+.section-header {
+  text-align: var(--section-header-align); /* Set horizontal alignment to center */
+  padding: var(--section-header-padding); /* Pad all sides using section-header-padding */
+}
+
+.section-title {
+  font-family: var(--font-family-title); /* Set font family to font-family-title */
+  font-size: var(--font-size-xx-large); /* Set font size to font-size-xx-large */
+  font-weight: var(--font-weight-bold); /* Set font weight to bold (700) */
+  margin: var(--section-title-margin); /* Set margin using section-title-margin */
+  color: var(--section-title-color); /* Set text color using section-title-color */
+}
+
+.section-tagline {
+  font-family: var(--font-family-title); /* Set font family to font-family-title */
+  text-transform: var(--section-tagline-transform); /* Transform text to uppercase */
+  font-weight: var(--font-weight-bold); /* Set font weight to bold (700) */
+  color: var(--color-primary); /* Foreground color set to color-primary (#d73953) */
+  margin: var(--section-tagline-margin); /* Set margin using section-tagline-margin */
+}
+
+.section-body {
+  padding: var(--section-body-padding); /* Pad all sides using section-body-padding */
+}
+
+.section-footer {
+  padding: var(--section-footer-padding); /* Pad all sides using section-footer-padding */
+  text-align: var(--section-footer-align); /* Set horizontal alignment using section-footer-align */
+}
+
+/* UL with row class */
+ul.row {
+  margin: 0; /* Set margin on all sides to 0 */
+  padding: 0; /* Set padding on all sides to 0 */
+  list-style: none; /* Remove list styling */
+}
+
+/* Column 1/3 */
+.col-1-3 {
+  width: 33.33%; /* Set width to 33.33% of parent */
+  float: left; /* Float to the left */
+  padding: calc(0.5 * var(--font-size-medium)); /* Set padding to half of the root element */
+}
+
+/* Column 1/2 */
+.col-1-2 {
+  width: 50%; /* Set width to 50% of parent */
+  float: left; /* Float to the left */
+  padding: calc(0.5 * var(--font-size-medium)); /* Set padding to half of the root element */
+}
+
+/* Footer copyright */
+.footer-copyright {
+  margin: 0; /* Set margin to 0 */
+  font-size: var(--font-size-small); /* Set font-size to font-size-small */
+  color: var(--text-color); /* Set color to text-color */
+}
+
+/* UL in footer */
+footer ul {
+  text-align: right; /* Align text to the right */
+}
+
+/* Container */
+.container {
+  width: 960px; /* Set container width */
+  margin-left: auto; /* Evenly distribute margin on the left */
+  margin-right: auto; /* Evenly distribute margin on the right */
+}
+
+/* Footer */
+.footer {
+  padding: var(--footer-padding); /* Set padding on all sides using footer-padding */
+}
+
